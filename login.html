@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bow er Bank</title>
+    <!-- tailwind cdn -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="text-5xl text-center mt-16">
+        Welcome to my
+        <span class="text-red-400 font-semibold"> Bow-Er-Bank!!!</span>
+      </h1>
+    </header>
+    <main>
+      <section class="w-3/4 bg-yellow-200 mx-auto p-16 mt-6">
+        <h3 class="font-semibold text-xl text-green-900 text-center">
+          Please Login
+        </h3>
+        <div class="flex flex-col items-center">
+          <input
+            id="user-email"
+            class="block mb-2 w-3/4 px-2 border rounded py-1"
+            type="text"
+            placeholder="Your Email"
+          />
+          <input
+            class="block mb-2 w-3/4 px-2 border rounded py-1"
+            type="password"
+            name=""
+            id="user-password"
+            placeholder="Password"
+          />
+          <button
+            id="login"
+            class="bg-green-400 px-3 rounded text-white font-semibold py-1"
+          >
+            Login
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="js/login.js"></script>
+  </body>
+</html>
